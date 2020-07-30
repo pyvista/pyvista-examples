@@ -9,5 +9,6 @@ dependencies:
   - lxml
   - pip:
     - git+git://github.com/pyvista/pyvista@master
+    - scipy
     - matplotlib
     - pyct
