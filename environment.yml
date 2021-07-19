@@ -1,0 +1,19 @@
+name: pyvista-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - lxml
+  - pip:
+    - git+git://github.com/pyvista/pyvista@main
+    - scipy
+    - matplotlib
+    - pyct
+    - pandas>=1.1.4
+    - trimesh
+    - ipyvtklink
+    - colorcet
+    - cmocean
+    - imageio>=2.5.0
+    - imageio-ffmpeg
