@@ -28,6 +28,8 @@ dependencies:
   - panel
   - ipygany
   - ipyvtklink
+  - lxml
+  - pyct
   - pip:
       - git+git://github.com/pyvista/pyvista@main
       - pytest-memprof
