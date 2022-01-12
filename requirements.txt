@@ -1,6 +1,5 @@
 tqdm
 hypothesis
 rtree
-pyembree
 lxml
 pyct
